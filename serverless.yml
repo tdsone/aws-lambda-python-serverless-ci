@@ -1,6 +1,6 @@
-service: aws-python
+service: my-service
 
-frameworkVersion: '2 || 3'
+frameworkVersion: "2 || 3"
 app: aws-python
 
 provider:
