@@ -3,6 +3,10 @@ service: my-service
 frameworkVersion: "2 || 3"
 app: aws-python
 
+custom:
+  pythonRequirements:
+    dockerizePip: true
+
 provider:
   name: aws
   runtime: python3.8
@@ -11,3 +15,6 @@ provider:
 functions:
   hello:
     handler: handler.hello
+
+plugins:
+  - serverless-python-requirements
