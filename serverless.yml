@@ -1,7 +1,7 @@
 service: aws-python
 
 frameworkVersion: '2 || 3'
-
+app: aws-python
 
 provider:
   name: aws
